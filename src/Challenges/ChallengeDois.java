@@ -25,6 +25,7 @@ public class ChallengeDois {
                         System.out.println("Escreva o nome do ninja:");
                         ninjas[contador] = scanner.nextLine();
                         contador++;
+                        System.out.println("Ninja cadastrado com sucesso!");
                     }else{
                         System.out.println("Limite máximo de ninjas cadastrados excedido.");
                     }
